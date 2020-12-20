@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400&display=swap');
+
+html, body{margin:0px; padding:0px; overflow-x: hidden; max-width: 100%;
+background:#EFEFE8FF;
+}
+p {
+    font-family: Helvetica, sans-serif;
+}
+h2{
+    font-family: 'Frank Ruhl Libre';
+}
+h1{
+  font-family: 'Frank Ruhl Libre';
+}
+
+a{
+  text-decoration: none;
+  color: aliceblue;
+}
+.top-bar {
+    width: 100%;
+    background-color:#00539C ;
+    position: fixed;
+    z-index: 1;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    color:aliceblue;
+    overflow: hidden;
+    height: 35px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.sidebar {
+    float:right;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #004077;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: aliceblue;
+    display: block;
+    transition: 0.3s;
+  }
+  .sidebar a:hover {
+    color:#FFD662;
+  }
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+
+  }
+  
+  .openbtn {
+    font-size: 25px;
+    cursor: pointer;
+    background-color:#00539C;
+    color:aliceblue;
+    padding: 0px 15px;
+    border: none;
+    float:right;
+  }
+  
+  .openbtn:hover {
+    background-color: #004077;
+  }
+
+
+.top-bar h1 {font-size:30px;
+    padding-left: 120px;
+    display: inline;
+}
+
+.container {
+    position: relative;
+    top: 200px;
+    left: 5%;
+    width: 20%;
+    float:left;
+    overflow: hidden;
+    background-color: #FFD662;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border-radius: 5%;
+    min-width: 300px;
+}
+.container #text {
+margin: 20px;
+}
+.container #profile{
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    left: 25%;
+    top: 20px;
+}
+.container #social{
+  display: flex;
+  flex: row;
+  padding: 10px;
+} 
+.gallery-box{
+    background:rgb(250, 94, 79);
+    float: right;
+    width: 50%;
+    display: block;
+    text-align: center;
+    padding-bottom: 300px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.gallery-box .galleryimg{  
+    position: relative;
+    display:block;
+    width: 100%;
+}
+
+.container2{
+    position: relative;
+    top: 150px;
+    left: 50px;
+    text-align: center;
+    width: 90%;
+  }
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 1s ease;
+    background-color: #FFD662;
+  }
+  .text {
+    font-size:50px;
+    color: black;
+    font-family:'Frank Ruhl Libre'; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .container2:hover .overlay {
+    opacity: 0.7;
+  }
+
+  .videobox{
+    margin-top: 20px;
+    clear: both;
+    background:rgb(250, 94, 79);
+    float: left;
+    width: 50%;
+    display: block;
+    text-align: center;
+    padding-bottom: 300px;
+    box-shadow: 0 20px 40px rgba(2,2,2,0.19), 2px 6px 6px rgba(2,2,2,0.23);
+  }
+
+  .videobox .videoimg{  
+    position: relative;
+    display:block;
+    width: 100%;}
+
+    .overlay2 {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: 1s ease;
+      background-color: #00539C;
+    }
+    .container2:hover .overlay2 {
+      opacity: 0.7;
+    }
+    .text2 {
+      font-size:50px;
+      color:rgb(255, 255, 255) ;
+      font-family:'Frank Ruhl Libre'; 
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+.footer{clear: both;
+  position: relative;
+  bottom:0;
+  width: 100%;
+  background-color: rgb(58, 55, 55);;
+  text-align:center;
+  font-style: italic;
+  padding:10px;
+  color: aliceblue;
+}
+
+#zapisnikfoto {
+  position: relative;
+  top: 100px;
+  width: 90%;
+  border-radius: 5%;
+}
+.gallerymain {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  width: 30%;
+  float:left;
+  overflow: hidden;
+}
+.gallerymain a{
+  color: black;
+  line-height: 2;
+  font-size: 25px;
+  border-bottom:2px solid black;
+  display: block;
+}
+.gallerymain a:hover{
+  color: #FFD662;
+}
+.gallerymain h1{
+  text-align: center;
+}
+ul{
+  list-style: none;
+  font-family: Helvetica, sans-serif;
+}
+.container-video{
+  width: 30%;
+  height: 100%;
+  position: relative;
+  left: 50px;
+  display: grid;
+  grid-template-columns: 1;
+  padding-top: 5%;
+
+}
+.container-video h1{
+  text-align: center;
+}
+.container-video p{
+  width: 50%;
+  padding: 0px 15px 15px 15px;
+}
+
+
+@media (max-width: 375px){ 
+  .top-bar {
+    width: 100%;
+  }
+  .top-bar h1{
+    padding-left: 15px;
+  }
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  justify-content: space-between;
+  }
+.container{
+  flex:start;
+  width: 100%;
+  }
+.gallery-box{
+ display: flex;
+  width: 100%;
+  margin-left: 0;
+  margin-top: 300px;
+
+}
+.gallerymain a{
+  color: blue;
+}
+.videobox{
+  width: 100%;
+  margin-left: 0;
+}
+.overlay2{
+  opacity: 0.7;
+}
+.overlay{
+  opacity: 0.7;
+}
+.container-video{
+  width: 30%;
+  position: relative;
+  left: 0px;
+  display: grid;
+  grid-template-columns: 1;
+  padding-top: 0%;
+
+}
+.container-video #video1{
+  max-width: 360px;
+}
+.container-video #video2{
+  max-width: 360px;
+}
+.container-video #video3{
+  max-width: 360px;
+}
+}

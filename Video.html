@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+     <head>
+         <html lang="cs">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="keywords" content="!!!!!!" />
+        <meta name="description" content="!!!!!!!" />
+        <meta name="subject" content="Portfolio website">
+        <meta name="language" content="CS">
+        <meta name="coverage" content="Worldwide">
+        <meta name="creator" content="Roger Nicholas">
+        <title> Roger Nicholas </title>
+        <link rel="icon" href="files/img/favicon.png">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+         <link rel="stylesheet" href="files/style.css">
+         
+    </head>
+
+
+<body>
+
+  <div class="top-bar">
+    <a href="index.html"><h1>Roger NICHOLAS</h1></a>
+    <button class="openbtn" onclick="openNav()">☰ </button>  
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">☰</a>
+        <a href="index.html">Hlavní</a>
+        <a href="Video.html">Video</a>
+        <a href="Galerie.html">Galerie</a>
+        <a href="#">Kontakt</a>
+        <a href="index-en.html">EN</a>
+      </div>
+  </div>
+
+  <div class="gallery-box">
+  <img id="zapisnikfoto" src="files/img/zapisnik007.jpg">
+  </div>
+  <div class="container-video">
+    <h1>Video</h1>
+    <iframe id="video1" src="https://player.vimeo.com/video/292478969" width="835" height="600" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    <p>Tento film je blablabla-</p>
+    <iframe id="video2" src="https://player.vimeo.com/video/360318498" width="835" height="600"  frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    <p>random tex here, because i can</p>
+    <iframe id="video3" src="https://player.vimeo.com/video/288699184" width="835" height="600"  frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    <p>random tex here, because i can</p>
+
+  </div>
+
+  <script>
+   function openNav() {
+      document.getElementById("mySidebar").style.width = "250px";
+      document.getElementById("top-bar").style.marginRight = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidebar").style.width = "0";
+      document.getElementById("top-bar").style.marginRight= "0";
+    }
+    </script>
+
+<div class="footer">
+  <p>2021 &copy; </p>
+  </div>
+
+
+</body>
+
+</html>
